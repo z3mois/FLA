@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dmitry/progc++/formal/re2dfa/api.hpp
+string
+-
+set
+-
+
+/home/dmitry/progc++/formal/re2dfa/task.cpp
+api.hpp
+/home/dmitry/progc++/formal/re2dfa/api.hpp
+string
+-
+iostream
+-
+stack
+-
+vector
+-
+set
+-
+map
+-
+algorithm
+-
+queue
+-
+

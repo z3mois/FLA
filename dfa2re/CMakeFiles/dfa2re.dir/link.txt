@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/dfa2re.dir/main.cpp.o CMakeFiles/dfa2re.dir/task.cpp.o  -o dfa2re   -L/home/dmitry/progc++/formal/dfa2re/dfa2re  -L/home/dmitry/progc++/formal/dfa2re  -Wl,-rpath,/home/dmitry/progc++/formal/dfa2re/dfa2re:/home/dmitry/progc++/formal/dfa2re: -lRegexCheckerCore_Linux 

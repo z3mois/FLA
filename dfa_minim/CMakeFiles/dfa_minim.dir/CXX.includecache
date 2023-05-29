@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dmitry/progc++/formal/dfa_minim/api.hpp
+string
+-
+set
+-
+
+/home/dmitry/progc++/formal/dfa_minim/task.cpp
+api.hpp
+/home/dmitry/progc++/formal/dfa_minim/api.hpp
+string
+-
+vector
+-
+iostream
+-
+queue
+-
+tuple
+-
+map
+-
+
